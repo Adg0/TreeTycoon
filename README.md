@@ -53,9 +53,7 @@ The `silvanus NFT` is responsible for processing all growth event. The program i
 
 The `potion NFT` is used to revive dead trees, any account that holds silvanusTree NFT gets exponential potions power minted during mint call to `potion contract`. Potion NFTs are thus dynamic NFT as well.
 
-The `H2O token` is used to grow the silvanusTree NFT. It is a standard ERC20 token on optimism, except for airdrop function `Rain`.
-
-In `WaterToken.sol` we keep the logic of `Rain`, `MagicPotion.sol` contains approval to apply potion and `SilvanusTree.sol` keeps track of tree growth variable and triggers game master events.
+The `H2O token` is used to grow the silvanusTree NFT.
 
 ## Contact
 
