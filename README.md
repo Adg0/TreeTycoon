@@ -1,10 +1,10 @@
-# :deciduous_tree: Silvanus: Grow seedling into a meta tree.
+# :deciduous_tree: TreeTycoon *grow your seedling into a meta tree*
 
 :warning: *This is a proof of concept, not to be used in production environment.*
 
 ## Summary
 
-Silvanus is an `on-chain` dynamic NFT game.
+TreeTycoon is an `on-chain` dynamic NFT game.
 
 Players water seedling NFTs to grow them into a tree.
 
@@ -12,9 +12,9 @@ Players race to grow their seedling before the tree NFT dies from `flood` or `wi
 
 The goal of the game is to promote forestation and bring people together.
 
-[![Silvanus](https://imgur.com/pmMPeI6.png)](https://youtu.be/DHCMM8Xy254 "Silvanus")
+[![Tree Tycoon](https://imgur.com/pmMPeI6.png)](https://youtu.be/DHCMM8Xy254 "Tree Tycoon")
 
-[Demo Video](https://youtu.be/DHCMM8Xy254 "Silvanus")
+[Demo Video](https://youtu.be/DHCMM8Xy254 "Tree Tycoon")
 
 [Live Demo](https://rectangular-sedate-anger.glitch.me/)
 
@@ -49,11 +49,11 @@ Or use some `Magic Potion` NFT to revive your tree if it dies.
 
 # Smart Contract
 
-The `silvanus NFT` is responsible for processing all growth event. The program is responsible for implementing all the logic for the game. And so it is a dynamic NFT.
+The `tree NFT` is responsible for processing all growth event. The program is responsible for implementing all the logic for the game. And so it is a dynamic NFT.
 
-The `potion NFT` is used to revive dead trees, any account that holds silvanusTree NFT gets exponential potions power minted during mint call to `potion contract`. Potion NFTs are thus dynamic NFT as well.
+The `potion NFT` is used to revive dead trees, any account that holds tree NFT gets exponential potions power minted during mint call to `potion contract`. Potion NFTs are thus dynamic NFT as well.
 
-The `H2O token` is used to grow the silvanusTree NFT.
+The `H2O token` is used to grow the tree NFT.
 
 ## Contact
 
